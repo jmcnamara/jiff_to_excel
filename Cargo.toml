@@ -1,0 +1,13 @@
+[package]
+name = "jiff_to_excel"
+description = "Functions to convert Jiff civil dates/times to Excel datetimes."
+authors = ["John McNamara <jmcnamara@cpan.org>"]
+repository = "https://github.com/jmcnamara/jiff_to_excel"
+version = "0.1.0"
+edition = "2024"
+keywords = ["excel", "xlsx", "date", "time", "calendar", "zone", "duration"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+jiff = {"version" = "0.2.14", default-features = false, features = []}
